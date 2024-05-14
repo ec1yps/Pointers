@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 #define tab "\t"
@@ -17,12 +17,12 @@ void main()
 	int* even = new int[n];
 	int* odd = new int[n];
 	FillRand(arr, n);
-	cout << "Èñõîäíûé ìàññèâ: ";
+	cout << "Ð˜ÑÑ…Ð¾Ð´Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: ";
 	Print(arr, n);
 	Split(arr, even, odd, n);
-	cout << "Ìàññèâ ñ ÷åòíûìè ýëåìåíòàìè: ";
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ñ Ñ‡ÐµÑ‚Ð½Ñ‹Ð¼Ð¸ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ð¼Ð¸: ";
 	Print(even, e_size);
-	cout << "Ìàññèâ ñ íå÷åòíûìè ýëåìåíòàìè: ";
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ñ Ð½ÐµÑ‡ÐµÑ‚Ð½Ñ‹Ð¼Ð¸ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°Ð¼Ð¸: ";
 	Print(odd, o_size);
 	delete[] arr;
 	delete[] even;
