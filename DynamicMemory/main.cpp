@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 #define tab "\t"
@@ -7,18 +7,19 @@ void Fillrand(int arr[], const int n);
 void Print(int arr[], const int n);
 void Add(int* &arr, int &n, const int value);
 
+
 void main()
 {
 	setlocale(LC_ALL, "");
 	int n;
-	cout << "Ââåäèòå ýëåìåíò ìàññèâà: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> n;
 	int* arr = new int[n];
 
 	Fillrand(arr, n);
 	Print(arr, n);
 
 	int value;
-	cout << "Ââåäèòå äîáàâëÿåìîå çíà÷åíèå: "; cin >> value;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð¾Ð±Ð°Ð²Ð»ÑÐµÐ¼Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ: "; cin >> value;
 	Add(arr, n, value);
 
 	Print(arr, n);
