@@ -5,8 +5,8 @@ using namespace std;
 
 void Fillrand(int arr[], const int n);
 void Print(int arr[], const int n);
-void Add(int* &arr, int &n, const int value);
-
+//void push_back(int* &arr, int &n, const int value);
+int* push_back(int arr[], int& n, const int value);
 
 void main()
 {
@@ -20,7 +20,7 @@ void main()
 
 	int value;
 	cout << "Введите добавляемое значение: "; cin >> value;
-	Add(arr, n, value);
+	arr = push_back(arr, n, value);
 
 	Print(arr, n);
 
@@ -44,7 +44,7 @@ void Print(int arr[], const int n)
 	cout << endl;
 }
 
-void Add(int *&arr, int &n, const int value)
+/*void push_back(int*& arr, int& n, const int value)
 {
 	int* new_arr = new int[n + 1];
 	for (int i = 0; i < n; i++)
@@ -54,4 +54,17 @@ void Add(int *&arr, int &n, const int value)
 	new_arr[n++] = value;
 	delete[] arr;
 	arr = new_arr;
+}*/
+
+int* push_back(int arr[], int& n, const int value)
+{
+	int* new_arr = new int[n + 1];
+	for (int i = 0; i < n; i++)
+	{
+		new_arr[i] = arr[i];
+	}
+	new_arr[n++] = value;
+	delete[] arr;
+	arr = new_arr;
+	return arr;
 }
