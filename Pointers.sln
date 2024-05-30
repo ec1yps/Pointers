@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicMemory", "DynamicMem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Split", "Split\Split.vcxproj", "{B9CB7307-0F41-4EF6-ACAC-EF2537F4E5FB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exam", "Exam\Exam.vcxproj", "{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -83,6 +85,18 @@ Global
 		{B9CB7307-0F41-4EF6-ACAC-EF2537F4E5FB}.Release|x64.Build.0 = Release|x64
 		{B9CB7307-0F41-4EF6-ACAC-EF2537F4E5FB}.Release|x86.ActiveCfg = Release|Win32
 		{B9CB7307-0F41-4EF6-ACAC-EF2537F4E5FB}.Release|x86.Build.0 = Release|Win32
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Debug|ARM64.Build.0 = Debug|ARM64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Debug|x64.ActiveCfg = Debug|x64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Debug|x64.Build.0 = Debug|x64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Debug|x86.Build.0 = Debug|Win32
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Release|ARM64.ActiveCfg = Release|ARM64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Release|ARM64.Build.0 = Release|ARM64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Release|x64.ActiveCfg = Release|x64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Release|x64.Build.0 = Release|x64
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Release|x86.ActiveCfg = Release|Win32
+		{6FA508C2-19CD-4D8E-A0B1-5B772F54D536}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
